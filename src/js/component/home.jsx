@@ -1,18 +1,18 @@
 import React from "react";
 
-import card from "./card.jsx";
-import footer from "./foot.jsx";
+import Card from "./card.jsx";
+import Foot from "./foot.jsx";
 
 const Home = () => {
 	return (
 		<div className="container">
 			<div className="row">
-				<card />
-				<card />
-				<card />
-				<card />
+				<Card />
+				<Card />
+				<Card />
+				<Card />
 			</div>
-			<foot />
+			<Foot />
 		</div>
 	);
 };
