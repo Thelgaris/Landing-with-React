@@ -3,8 +3,6 @@ import React from "react";
 import ReactDOM from "react-dom";
 import { Component } from "react/cjs/react.production.min";
 
-
-
 // include your styles into the webpack bundle
 import "../styles/index.css";
 
