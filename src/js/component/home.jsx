@@ -1,12 +1,14 @@
 import React from "react";
-import Navbar from "./Navbar";
-import Carrousel from "./Carrousel";
-//include images into your bundle
+import Navbar from "./Navbar.jsx";
+import Carrousel from "./Carrousel.jsx";
 
-//create your first component
-function Home() {
-	return <div>{Navbar}</div>&
-	<div>{Carrousel}</div>;
-}
+const Home = () => {
+	return (
+		<div className="header">
+			<Navbar />
+			<Carrousel />
+		</div>
+	);
+};
 
 export default Home;
