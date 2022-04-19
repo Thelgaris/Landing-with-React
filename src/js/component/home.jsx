@@ -1,4 +1,6 @@
 import React from "react";
+import Navbar from "./Navbar.jsx";
+import Carrousel from "./Carrousel.jsx";
 
 import Card from "./card.jsx";
 import Foot from "./foot.jsx";

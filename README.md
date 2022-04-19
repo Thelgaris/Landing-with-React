@@ -1,5 +1,10 @@
 Primer Commit!!
 
+Hola 4Geeks teacher!
+
+He creado parte de esta web usando REact y Bootstrap! PAra ello hemos creado dos componentes, uno para el Navbar y otro para el Carrousel.
+Luego se han importado los dos componentes al Home.
+
 
 # Hello World with React boilerplate
 <p>
