@@ -8,6 +8,10 @@ import Foot from "./foot.jsx";
 const Home = () => {
 	return (
 		<div className="container">
+			<div className="header">
+				<Navbar />
+				<Carrousel />
+			</div>
 			<div className="row" id="cards">
 				<Card />
 				<Card />
